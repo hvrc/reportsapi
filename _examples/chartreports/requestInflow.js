@@ -7,8 +7,8 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Coding/Projects/Gromor/Reports/reportsapi/_examples/_files/inflow.csv",
-            // "input": ["localhost", "root", "hvrc2000$", "ReportsDB", 3306, "inflow"],
+            "input": "/reportsapi/_examples/_files/inflow.csv",
+            // "input": [],
             "type": "detach",
             "cols": ["payment_date", "outstanding_principal_opening_balance", "outstanding_principal_closing_balance"],
             "width": 1200,

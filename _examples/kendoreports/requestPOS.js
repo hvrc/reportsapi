@@ -7,8 +7,8 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Coding/Projects/Gromor/Reports/reportsapi/_examples/_files/pos.csv",
-            // "input": ["localhost", "root", "hvrc2000$", "ReportsDB", 3306, "pos"],
+            "input": "/reportsapi/_examples/_files/pos.csv",
+            // "input": [],
             "type": "detach",
             "cols": ["Date", "Amount"],
             "width": 1200,
