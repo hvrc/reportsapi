@@ -238,7 +238,7 @@ of three years.
 
 ![](_docs/images/pos_input_csv.png)
 
-The ajax call sent is similar to the one in the previous examples. However due to
+The ajax call sent is similar to the one in the previous examples. However, due to
 the requirements of the syntax of the Kendo UI Stock Chart script, an array called
 `series` containing the data to be plotted must be created.
 
@@ -286,5 +286,3 @@ The POS data is plotted in a scrollable chart format. As you zoom in, the x-axis
 changes values and plots new points. This chart is embedded in an .html file.
 
 ![](_docs/images/pos_chart.png)
-
----
