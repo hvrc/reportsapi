@@ -1,6 +1,5 @@
 # reportsapi
 
----
 # About
 Reportsapi contains three apps: csvreport, chartreport and kendoreport. This API
 was written using Django and Python's Pandas module, as a project assigned by [Gromor Finance](https://gromor.in/)
