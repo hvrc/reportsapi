@@ -286,4 +286,6 @@ $("document").ready(function() {
 The POS data is plotted in a scrollable chart format. As you zoom in, the x-axis
 changes values and plots new points. This chart is embedded in a .html file.
 
-![](_docs/images/pos_chart.png)
+![](_docs/images/pos_chart_1.png)
+![](_docs/images/pos_chart_2.png)
+![](_docs/images/pos_chart_3.png)
