@@ -7,7 +7,7 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Coding/Projects/Gromor/Reports/reportsapi/_examples/_files/visits.csv",
+            "input": "/Users/Harsh/Desktop/reportsapi/_examples/_files/visits.csv",
             // "input": [],
             "type": "frequency",
             "cols": ["date_time", "full_name"],

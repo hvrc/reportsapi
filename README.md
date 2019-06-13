@@ -17,7 +17,7 @@ in the API's response are passed into this script. The syntax of the scripts can
 `reportsapi/_examples/`.
 
 Kendoreport was written to explore the possibility of integrating scrollable charts
-to the company's loan software.
+to the company's software.
 
 The Python scripts located in `reportsapi/_source/` are used to format the data into
 reports. `utlis.py` contains multiple functions which were used to create customized
@@ -49,8 +49,8 @@ of database details, viz., `[host, user, password, database, port]`.
 `cols`: The value must be an array of column names. If the value of `type` is set to `"frequency"`,
 then the first element of the array `cols` is used as the index and the frequencies
 of the items in the column referred to by the second element of `cols`, are calculated.
-If the value of `type` is set to anything other than `"frequency"`, a new table,
-containing only the columns referred to in `cols` is created.  
+If the value of `type` is set to anything other than `"frequency"`, a new table is created,
+containing only the columns mentioned in `cols`.
 
 ---
 # Run the API locally
@@ -72,14 +72,15 @@ Install requirements
 (venv) $ pip install -r requirements.txt
 ```
 
-Run
+Make migrations and run
 ```
+(venv) $ python manage.py migrate
 (venv) $ python manage.py runserver
 ```
 
 ## View the examples
 
-Open a new tab in your Terminal,
+Open a new tab in Terminal,
 ```
 $ cd _examples
 $ python -m SimpleHTTPServer 8001
@@ -189,7 +190,7 @@ $("document").ready(function() {
 
 ```
 
-The following chart is generated and embedded in an .html file.
+The following chart is generated and embedded in a .html file.
 
 ![](_docs/images/visits_chart.png)
 
@@ -226,13 +227,13 @@ $("document").ready(function() {
 });
 ```
 
-The following chart is generated and embedded in an .html file.
+The following chart is generated and embedded in a .html file.
 
 ![](_docs/images/inflow_chart.png)
 
 ### Example Kendo Report (POS Data)
 
-Here, the .csv file used as input contains two columns only, displaying the date
+Here, the .csv file used as input contains only two columns, displaying the date
 and amount of the POS data (Outstanding Principal Opening Balance), over the span
 of three years.
 
@@ -283,6 +284,6 @@ $("document").ready(function() {
 ```
 
 The POS data is plotted in a scrollable chart format. As you zoom in, the x-axis
-changes values and plots new points. This chart is embedded in an .html file.
+changes values and plots new points. This chart is embedded in a .html file.
 
 ![](_docs/images/pos_chart.png)

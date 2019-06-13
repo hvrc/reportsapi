@@ -7,9 +7,9 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Coding/Projects/Gromor/Reports/reportsapi/_examples/_files/inflow.csv",
+            "input": "/Users/Harsh/Desktop/reportsapi/_examples/_files/inflow.csv",
             // "input": [],
-            "type": "detach",
+            "type": "",
             "cols": ["payment_date", "outstanding_principal_opening_balance", "outstanding_principal_closing_balance"],
             "width": 1200,
             "height": 300
