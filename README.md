@@ -108,7 +108,7 @@ POST http://127.0.0.1:8000/api/csv
 
 ```json
 {
-	"input": "path/to/visits.csv",
+	"input": "/reportsapi/_examples/_files/visits.csv",
 	"type": "frequency",
 	"cols": ["date_time", "full_name"]
 }
@@ -141,7 +141,7 @@ POST http://127.0.0.1:8000/api/csv
 ```
 ```json
 {
-	"input": "path/to/visits.csv",
+	"input": "/reportsapi/_examples/_files/visits.csv",
 	"type": "detach",
 	"cols": ["payment_date", "outstanding_principal_opening_balance", "outstanding_principal_closing_balance"]
 }
@@ -171,7 +171,7 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "path/to/visits.csv",
+            "input": "/reportsapi/_examples/_files/visits.csv",
             // "input": [host, user, password, database, port],
             "type": "frequency",
             "cols": ["date_time", "full_name"],
@@ -253,7 +253,7 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "path/to/pos.csv",
+            "input": "/reportsapi/_examples/_files/pos.csv",
             // "input": [],
             "type": "detach",
             "cols": ["Date", "Amount"],
