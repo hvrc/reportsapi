@@ -56,31 +56,31 @@ containing only the columns referred to in `cols` is created.
 # Run the API locally
 
 Clone
-```bash
+```
 $ git clone "https://github.com/hvrc/reportsapi.git"
 $ cd reportsapi
 ```
 
 Create a virtualenv & activate it
-```bash
+```
 $ python3 -m venv venv
 $ . venv/bin/activate
 ```
 
 Install requirements
-```bash
+```
 (venv) $ pip install -r requirements.txt
 ```
 
 Run
-```bash
+```
 (venv) $ python manage.py runserver
 ```
 
 ## View the examples
 
 Open a new tab in your Terminal,
-```bash
+```
 $ cd _examples
 $ python -m SimpleHTTPServer 8001
 ```
@@ -118,7 +118,7 @@ following line in `reportsapi/_source/reporter.py`
 
 ```python
 def getReport(df, cols, type="frequency"):
-    df = formatDates(df, cols[0], "%d-%m-%Y") # <-- this is a function from utils.py which formats the dates
+    df = formatDates(df, cols[0], "%d-%m-%Y") # <-- a function from utils.py which formats the dates
     return pd.DataFrame(...
 ```
 
