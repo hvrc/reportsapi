@@ -26,6 +26,7 @@ def getReport(df, cols, type="frequency"):
 # to generate a csv in the view
 def getBuffer(df, sep=","):
     # use utils functions here
+    # df = appendSum(df, "columns")
     buffer = io.StringIO()
     df.to_csv(buffer, sep=sep, encoding="utf-8")
     buffer.seek(0)
