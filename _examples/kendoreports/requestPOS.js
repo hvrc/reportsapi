@@ -7,7 +7,7 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Desktop/reportsapi/_examples/_files/pos.csv",
+            "input": "https://raw.githubusercontent.com/hvrc/reportsapi/master/_examples/_files/pos.csv",
             // "input": [],
             "type": "",
             "cols": ["Date", "Amount"],

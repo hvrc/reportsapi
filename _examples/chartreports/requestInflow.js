@@ -7,7 +7,7 @@ $("document").ready(function() {
         traditional: true,
 
         data: {
-            "input": "/Users/Harsh/Desktop/reportsapi/_examples/_files/inflow.csv",
+            "input": "https://raw.githubusercontent.com/hvrc/reportsapi/master/_examples/_files/inflow.csv",
             // "input": [],
             "type": "",
             "cols": ["payment_date", "outstanding_principal_opening_balance", "outstanding_principal_closing_balance"],
